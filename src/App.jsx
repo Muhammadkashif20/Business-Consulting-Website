@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import Header from './Components/Header'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-bold text-center m-2 p-2 text-2xl'>hello world</h1>
+    <div className='bg-white mx-auto'>
+      <Navbar/>
+      <Header/>
     </div>
   )
 }
