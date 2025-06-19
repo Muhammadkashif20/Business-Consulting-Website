@@ -4,7 +4,7 @@ import Header from './Components/Header'
 
 const App = () => {
   return (
-    <div className='bg-white mx-auto'>
+    <div>
       <Navbar/>
       <Header/>
     </div>
