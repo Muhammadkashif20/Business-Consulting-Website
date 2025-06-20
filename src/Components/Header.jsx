@@ -2,6 +2,7 @@ import { Image } from "antd";
 import React from "react";
 import { FaRegEnvelope } from "react-icons/fa";
 import pic1 from "../Image/pic 1.png"
+import pic2 from "../Image/pic 2.png"
 const Header = () => {
   return (
     <div className="mx-32 my-28">
@@ -27,6 +28,9 @@ const Header = () => {
        <div className="flex justify-end relative bottom-7">
         <img src={pic1} alt="" className="w-[25rem]"/>
         </div>
+      </div>
+      <div className="my-[6rem]">
+        <img src={pic2} alt=""/>
       </div>
     </div>
   );
