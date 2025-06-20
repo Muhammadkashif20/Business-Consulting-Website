@@ -1,5 +1,6 @@
+import { Image } from "antd";
 import React from "react";
-
+import { FaRegEnvelope } from "react-icons/fa";
 const Header = () => {
   return (
     <div>
@@ -14,9 +15,14 @@ const Header = () => {
           </p>
         </div>
         <div className="my-10 flex gap-3">
-          <Fonta icon="fa-solid fa-envelope" />
-          <input type="text" placeholder="Your email address" className="bg-white p-3 w-[25%] placeholder:text-gray-600 text-sm"/>
-            <button className="p-2 w-[7rem] bg-[#008080] text-white rounded-sm font-semibold">Get Started</button>
+          <div className="bg-white p-1 w-[25%]">
+            <FaRegEnvelope className="relative top-3 left-2 text-gray-500 "/>
+          <input type="text" placeholder="Your email address" className=" placeholder:text-gray-600 text-sm mx-9 relative bottom-2 outline-none"/>
+          </div>
+            <button className="w-[7rem] bg-[#008080] text-white rounded-sm font-semibold">Get Started</button>
+        </div>
+        <div>
+          <Image src=""/>
         </div>
       </div>
     </div>
