@@ -1,10 +1,11 @@
 import { Image } from "antd";
 import React from "react";
 import { FaRegEnvelope } from "react-icons/fa";
+import pic1 from "../Image/pic 1.png"
 const Header = () => {
   return (
     <div>
-      <div className="mx-32 my-28">
+      <div className="mx-32 my-28 flex flex-col">
         <h1 className="font-semibold text-5xl leading-13">
           Navigating the <br /> <span className="text-[#008080]">Global</span> financial <br /> landscape
         </h1>
@@ -21,8 +22,8 @@ const Header = () => {
           </div>
             <button className="w-[7rem] bg-[#008080] text-white rounded-sm font-semibold">Get Started</button>
         </div>
-        <div>
-          <Image src=""/>
+        <div className="flex flex-row">
+        <img src={pic1} alt="" className="w-[30%]"/>
         </div>
       </div>
     </div>
