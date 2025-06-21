@@ -12,7 +12,7 @@ const Services = () => {
     <div className="mx-32 my-28">
       <div className=" flex flex-row justify-between items-center">
         <div className="flex justify-start">
-          <img src={Group96} className="w-[27rem] h-[32rem]" />
+          <img src={Group96} className="w-[27rem] h-[31rem]" />
         </div>
         <div className="flex flex-col">
           <div className="flex items-center gap-5 ">
@@ -21,7 +21,7 @@ const Services = () => {
             </h2>
             <img src={line} alt="" className="h-[2px] w-[5rem]" />
           </div>
-          <h1 className="font-semibold text-4xl my-2">
+          <h1 className="font-medium text-4xl my-5">
             Our Services Can Help You <br /> Grow Your Investments <br /> and
             Wealth
           </h1>
