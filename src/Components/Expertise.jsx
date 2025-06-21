@@ -11,7 +11,7 @@ const Expertise = () => {
               <h2 className='bg-[#EDFBFA] text-[#008080] text-center w-[9rem]'>OUR EXPERTISE</h2>
               <img src={line} alt="" className='h-[2px] w-[5rem]'/>
             </div>
-           <h1 className="font-medium text-4xl ">
+           <h1 className="font-medium text-4xl my-5">
              Transforming Finances <br />With Strategic Wealth <br /> Management   
            </h1>
            <div className="my-8">
