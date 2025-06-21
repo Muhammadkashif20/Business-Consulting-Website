@@ -21,7 +21,7 @@ const Testimonials = () => {
           Guidance
         </p>
       </div>
-      <div className="flex justify-between items-center my-10 gap-10"> 
+      <div className="flex justify-between items-center mt-10 gap-10"> 
         <img src={Feedback1} alt="" className="w-[20rem]"/>
         <img src={Feedback2} alt="" className="w-[20rem]"/>
         <img src={Feedback3} alt="" className="w-[20rem]"/>
