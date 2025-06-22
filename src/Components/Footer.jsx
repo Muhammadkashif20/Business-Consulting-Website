@@ -7,17 +7,17 @@ import Line12 from "../Image/Line 12.png"
 const Footer = () => {
   return (
     <div className="bg-[#008080] w-full h-[75vh] text-white mt-32">
-      <div className="flex flex-row justify-between ">
+      <div className="flex flex-row justify-around ">
         {/* Column 1 */}
-        <div>
-          <h1>Prosperix</h1>
-          <p>
+        <div className="mt-16 mx-16">
+          <h1 className="font-bold text-2xl">Prosperix</h1>
+          <p className="my-6">
             Our expert financial consultants provide <br />
             solutions to help you achieve financial <br />
             wealth. Trust us to guide you toward a <br />
             brighter financial future.
           </p>
-          <div className="flex gap-4 mt-4 flex-row">
+          <div className="flex gap-4 flex-row my-8">
             <div className="flex gap-2 items-center">
               <FaFacebookF />
               <span>Facebook</span>
@@ -33,10 +33,10 @@ const Footer = () => {
           </div>
         </div>
         {/* Column 2 */}
-        <div className="">
-          <h1>Our Services</h1>
+        <div className="mt-16 ">
+          <h1 className="font-bold text-2xl">Our Services</h1>
           <div>
-            <ul className="list-none">
+            <ul className="list-none leading-12 mt-4">
               <li>Insurance Planning</li>
               <li>Estate Planning</li>
               <li>Tax Optimization</li>
@@ -45,10 +45,10 @@ const Footer = () => {
           </div>
         </div>
         {/* Column 3 */}
-        <div className="">
-          <h1>Explore More</h1>
+        <div className="mt-16 ">
+          <h1 className="font-bold text-2xl">Explore More</h1>
           <div>
-            <ul className="list-none">
+            <ul className="list-none leading-12 mt-4">
               <li>About us</li>
               <li>Blog</li>
               <li>Site map</li>
@@ -57,20 +57,25 @@ const Footer = () => {
           </div>
         </div>
         {/* Column 4 */}
-         <div className="">
-          <h1>Contact Details</h1>
+         <div className="mt-16 ">
+          <h1 className="font-bold text-2xl">Contact Details</h1>
           <div>
-            <ul className="list-none">
+            <ul className="list-none leading-12 mt-4">
               <li>contact@briofin.com</li>
               <li>+1 (555) 123-4567</li>
             </ul>
           </div>
         </div>
-        {/* footer bottom */}
-        <div>
-          <img src={Line12} alt=""/>
-        </div>
       </div>
+        {/* footer bottom */}
+        <div className="flex flex-col mx-26 my-5">
+          <span>________________________________________________________________________________________________________________________________________________________________________</span>
+          <span>M.Kashif 2025 © All rights reserved</span>
+          <div className="flex flex-row justify-end mt-[-1.5rem] gap-8">
+            <span>Terms & Conditions</span>
+            <span>Privacy Policy</span>
+            </div>
+        </div>
     </div>
   );
 };
