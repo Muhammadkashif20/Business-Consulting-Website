@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <div className="flex flex-row justify-around items-center m-10">
       <h1 className="font-bold text-2xl text-[#008080]">Prosperix</h1>
 
-      <ul className="flex gap-10 font-semibold">
+      <ul className={`flex gap-10 font-semibold sm:${isOpen ? <RxHamburgerMenu />  : "hidden"}`}>
         <li className="cursor-pointer hover:text-[#008080] transition duration-300 ease-in-out hover:scale-105">Home</li>
         <li className="cursor-pointer hover:text-[#008080] transition duration-300 ease-in-out hover:scale-105">Services</li>
         <li className="cursor-pointer hover:text-[#008080] transition duration-300 ease-in-out hover:scale-105">Contact</li>
