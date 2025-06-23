@@ -18,15 +18,15 @@ const Footer = () => {
             brighter financial future.
           </p>
           <div className="flex gap-4 flex-row my-8">
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-2 items-center cursor-pointer">
               <FaFacebookF />
               <span>Facebook</span>
             </div>
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-2 items-center cursor-pointer">
               <CiTwitter />
               <span>Twitter</span>
             </div>
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-2 items-center cursor-pointer">
               <FaInstagram />
               <span>Instagram</span>
             </div>
@@ -37,10 +37,10 @@ const Footer = () => {
           <h1 className="font-bold text-2xl">Our Services</h1>
           <div>
             <ul className="list-none leading-12 mt-4">
-              <li>Insurance Planning</li>
-              <li>Estate Planning</li>
-              <li>Tax Optimization</li>
-              <li>Debt Management</li>
+              <li className="cursor-pointer">Insurance Planning</li>
+              <li className="cursor-pointer">Estate Planning</li>
+              <li className="cursor-pointer">Tax Optimization</li>
+              <li className="cursor-pointer">Debt Management</li>
             </ul>
           </div>
         </div>
@@ -49,10 +49,10 @@ const Footer = () => {
           <h1 className="font-bold text-2xl">Explore More</h1>
           <div>
             <ul className="list-none leading-12 mt-4">
-              <li>About us</li>
-              <li>Blog</li>
-              <li>Site map</li>
-              <li>Privacy</li>
+              <li className="cursor-pointer">About us</li>
+              <li className="cursor-pointer">Blog</li>
+              <li className="cursor-pointer">Site map</li>
+              <li className="cursor-pointer">Privacy</li>
             </ul>
           </div>
         </div>
@@ -61,8 +61,8 @@ const Footer = () => {
           <h1 className="font-bold text-2xl">Contact Details</h1>
           <div>
             <ul className="list-none leading-12 mt-4">
-              <li>contact@briofin.com</li>
-              <li>+1 (555) 123-4567</li>
+              <li className="cursor-pointer">contact@briofin.com</li>
+              <li className="cursor-pointer">+1 (555) 123-4567</li>
             </ul>
           </div>
         </div>

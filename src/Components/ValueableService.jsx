@@ -21,7 +21,7 @@ const ValueableService = () => {
             Rely on seasoned professionals for <br /> tailored financial advice
             and strategic <br /> planning aligned with your unique goals
           </p>
-          <p className="text-[#008080] mt-8">Read more</p>
+          <p className="text-[#008080] mt-8 cursor-pointer">Read more</p>
         </div>
         {/* Group 2  */}
         <div>
@@ -31,7 +31,7 @@ const ValueableService = () => {
             We expertly handle and proactively <br /> mitigate financial risks,
             ensuring the <br /> safeguard of assets and overall stability
           </p>
-          <p className="text-[#008080] mt-8">Read more</p>
+          <p className="text-[#008080] mt-8 cursor-pointer">Read more</p>
         </div>
         {/* Group 3  */}
         <div>
@@ -41,7 +41,7 @@ const ValueableService = () => {
             Receive and Benefit from with financial <br /> solutions that
             tailored to your unique <br /> financial challenges and aspirations
           </p>
-          <p className="text-[#008080] mt-8">Read more</p>
+          <p className="text-[#008080] mt-8 cursor-pointer">Read more</p>
         </div>
       </div>
     </div>
