@@ -28,7 +28,7 @@ const Testimonials = () => {
         </p>
       </div>
 
-      <div className="flex justify-between items-center mt-10 gap-10">
+      <div className="flex justify-between items-center mt-10 gap-10 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3   ">
         <img
           src={Feedback1}
           alt=""
