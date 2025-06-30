@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="mx-32 my-16">
       <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
-        <div className="flex flex-col">
+        <div className="flex flex-col relative">
           <h1 className="font-semibold text-4xl lg:text-5xl  leading-13 ">
             Navigating the <br />{" "}
             <span className="text-[#008080] hover:text-[#006666] transition duration-300 ease-in-out cursor-pointer">
@@ -39,17 +39,16 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="">
+        <div className="w-[14rem] mt-10 md:w-[20rem] lg:w-[25rem] flex justify-center items-center">
           <img
             src={pic1}
             alt=""
-            // className="flex flex-col lg:justify-end w-[10rem] lg:w-[25rem] transition duration-300 ease-in-out hover:scale-105"
-            className=" w-[40rem] lg:w-[25rem] transition duration-300 ease-in-out hover:scale-105"
+            className=" w-full  transition duration-300 ease-in-out hover:scale-105"
           />
         </div>
       </div>
 
-      <div className="my-[6rem]">
+      <div className="w-[24rem] mt-10 md:w-[20rem] lg:w-[25rem] ">
         <img
           src={pic2}
           alt=""
