@@ -6,7 +6,7 @@ import Feedback3 from "../Image/Feedback3.png";
 
 const Testimonials = () => {
   return (
-    <div className="flex flex-col mx-32 my-28">
+    <div className="flex flex-col mx-4 md:ms-32 lg:mx-32 my-28">
       <div className="flex items-center gap-5">
         <h2 className="bg-[#EDFBFA] text-[#008080] text-center w-[9rem]">
           TESTIMONIALS
@@ -18,22 +18,24 @@ const Testimonials = () => {
         />
       </div>
 
-      <h1 className="font-medium text-4xl my-5">What Our Customers Say</h1>
+      <h1 className="font-medium text-3xl lg:text-4xl my-5">What Our Customers Say</h1>
 
-      <div className="my-1">
+      <div className="my-1 text-[.85rem] lg:text-[1rem]">
         <p>
-          Discover the Success Stories and Satisfaction of Clients Who Have{" "}
-          <br /> Benefited from Our Expertise and Personalized Financial
-          Guidance
+          Discover the Success Stories and Satisfaction of Clients Who <br/>  Have
+           Benefited  from Our Expertise  and  Personalized <br/>  Financial
+          Guidance.
         </p>
       </div>
 
-      <div className="flex justify-between items-center mt-10 gap-10 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3   ">
+      <div className="flex justify-between items-center mt-10 gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+        <div>
         <img
           src={Feedback1}
           alt=""
           className="w-[20rem] cursor-pointer transition duration-300 ease-in-out hover:scale-105"
-        />
+          />
+          </div>
         <img
           src={Feedback2}
           alt=""
