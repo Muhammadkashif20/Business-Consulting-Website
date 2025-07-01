@@ -1,7 +1,7 @@
 import React from "react";
 import { FaRegEnvelope } from "react-icons/fa";
-import pic1 from "../Image/pic 1.png";
-import pic2 from "../Image/pic 2.png";
+import pic1 from "../Image/pic1.png";
+import pic2 from "../Image/pic2.png";
 
 const Header = () => {
   return (
@@ -39,20 +39,20 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="w-[14rem] mt-10 md:w-[20rem] lg:w-[25rem] flex justify-center items-center">
+        <div className="w-[14rem] mt-10 md:w-[23rem] mx-14 lg:w-[25rem] flex justify-center items-center">
           <img
             src={pic1}
             alt=""
-            className=" w-full  transition duration-300 ease-in-out hover:scale-105"
+            className=" w-full transition duration-300 ease-in-out hover:scale-105"
           />
         </div>
       </div>
 
-      <div className="w-[24rem] mt-10 md:w-[20rem] lg:w-[25rem] ">
+      <div className=" mt-10 w-[30rem]">
         <img
           src={pic2}
           alt=""
-          className="w-full transition duration-300 ease-in-out hover:scale-105"
+          className=" md:w-full lg:w-full relative right-26 md:right-0 lg:right-0 transition duration-300 ease-in-out hover:scale-105"
         />
       </div>
     </div>

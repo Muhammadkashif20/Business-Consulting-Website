@@ -1,7 +1,7 @@
 import React from "react";
-import Group97 from "../Image/Group 97.png";
-import Group98 from "../Image/Group 98.png";
-import Group99 from "../Image/Group 99.png";
+import Group97 from "../Image/Group97.png";
+import Group98 from "../Image/Group98.png";
+import Group99 from "../Image/Group99.png";
 
 const ValueableService = () => {
   return (

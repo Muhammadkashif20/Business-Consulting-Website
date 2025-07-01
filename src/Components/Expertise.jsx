@@ -1,6 +1,6 @@
 import React from 'react';
-import Group95 from "../Image/Group 95.png";
-import line from "../Image/Line 10.png";
+import Group95 from "../Image/Group95.png";
+import line from "../Image/Line10.png";
 
 const Expertise = () => {
   return (

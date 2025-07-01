@@ -2,7 +2,6 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { FaFacebookF } from "react-icons/fa";
-import Line12 from "../Image/Line 12.png";
 
 const Footer = () => {
   return (

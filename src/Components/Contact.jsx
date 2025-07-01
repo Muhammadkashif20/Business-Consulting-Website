@@ -1,6 +1,6 @@
 import React from "react";
-import Rectangle from "../Image/Rectangle 41.png";
-import line from "../Image/Line 2.png";
+import Rectangle from "../Image/Rectangle41.png";
+import line from "../Image/Line2.png";
 import Services from "../Image/services.png";
 import { FaRegEnvelope } from "react-icons/fa";
 

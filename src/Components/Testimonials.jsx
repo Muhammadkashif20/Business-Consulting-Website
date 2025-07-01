@@ -1,8 +1,8 @@
 import React from "react";
-import line from "../Image/Line 10.png";
-import Feedback1 from "../Image/Feedback 1.png";
-import Feedback2 from "../Image/Feedback 2.png";
-import Feedback3 from "../Image/Feedback 3.png";
+import line from "../Image/Line10.png";
+import Feedback1 from "../Image/Feedback1.png";
+import Feedback2 from "../Image/Feedback2.png";
+import Feedback3 from "../Image/Feedback3.png";
 
 const Testimonials = () => {
   return (

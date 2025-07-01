@@ -1,10 +1,10 @@
 import React from "react";
-import Group83 from "../Image/Group 83.png";
-import Group84 from "../Image/Group 84.png";
-import Group85 from "../Image/Group 85.png";
-import Group86 from "../Image/Group 86.png";
-import Group96 from "../Image/Group 96.png";
-import line from "../Image/Line 10.png";
+import Group83 from "../Image/Group83.png";
+import Group84 from "../Image/Group84.png";
+import Group85 from "../Image/Group85.png";
+import Group86 from "../Image/Group86.png";
+import Group96 from "../Image/Group96.png";
+import line from "../Image/Line10.png";
 
 const Services = () => {
   return (
