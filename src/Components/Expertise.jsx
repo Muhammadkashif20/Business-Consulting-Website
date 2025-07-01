@@ -4,8 +4,8 @@ import line from "../Image/Line10.png";
 
 const Expertise = () => {
   return (
-    <div className="mx-32 my-28">
-      <div className="flex flex-row justify-between items-center">
+    <div className="mx-32 my-16">
+      <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
         <div className="flex flex-col">
           <div className="flex items-center gap-5">
             <h2 className="bg-[#EDFBFA] text-[#008080] text-center w-[9rem]">
@@ -18,13 +18,13 @@ const Expertise = () => {
             />
           </div>
 
-          <h1 className="font-medium text-4xl my-5">
+          <h1 className="font-medium text-3xl mt-4 lg:text-4xl ">
             Transforming Finances <br />
             With Strategic Wealth <br />
             Management
           </h1>
 
-          <div className="my-8">
+          <div className="my-8 text-[.85rem]  lg:text-[1rem] md:tracking-wide">
             <p>
               Guiding You on Your Global Financial Success Journey Through <br />
               Customized & Personalized Financial Consulting Services. Achieve <br />
@@ -45,10 +45,10 @@ const Expertise = () => {
           </div>
         </div>
 
-        <div className="flex justify-end">
+        <div className="flex justify-end md:ms-14">
           <img
             src={Group95}
-            className="w-[27rem] h-[30rem] transition duration-300 ease-in-out hover:scale-105"
+            className="w-[20rem] h-[20rem] md:w-[27rem] md:h-[23rem] lg:w-[27rem] h-[30rem] transition duration-300 ease-in-out hover:scale-105"
           />
         </div>
       </div>
