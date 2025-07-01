@@ -4,7 +4,7 @@ import line from "../Image/Line10.png";
 
 const Expertise = () => {
   return (
-    <div className="mx-32 my-16">
+    <div className="mx-4 md:ms-32 lg:mx-32 my-16">
       <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
         <div className="flex flex-col">
           <div className="flex items-center gap-5">
@@ -45,10 +45,10 @@ const Expertise = () => {
           </div>
         </div>
 
-        <div className="flex justify-end md:ms-14">
+        <div className="flex justify-end md:ms-14 w-full md:w-[22rem] lg:w-[25rem]">
           <img
             src={Group95}
-            className="w-[20rem] h-[20rem] md:w-[27rem] md:h-[23rem] lg:w-[27rem] h-[30rem] transition duration-300 ease-in-out hover:scale-105"
+            className="transition duration-300 ease-in-out hover:scale-105"
           />
         </div>
       </div>

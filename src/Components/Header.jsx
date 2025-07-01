@@ -5,7 +5,7 @@ import pic2 from "../Image/pic2.png";
 
 const Header = () => {
   return (
-    <div className="mx-32 my-16">
+    <div className="mx-4 md:ms-32 lg:mx-32 my-16">
       <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
         <div className="flex flex-col relative">
           <h1 className="font-semibold text-4xl lg:text-5xl  leading-13 ">
@@ -48,11 +48,11 @@ const Header = () => {
         </div>
       </div>
 
-      <div className=" mt-10 w-[30rem]">
+      <div className=" my-20 w-[30rem] md:w-full lg:w-full">
         <img
           src={pic2}
           alt=""
-          className=" md:w-full lg:w-full relative right-26 md:right-0 lg:right-0 transition duration-300 ease-in-out hover:scale-105"
+          className="  relative right-26 md:right-0 lg:right-0 transition duration-300 ease-in-out hover:scale-105"
         />
       </div>
     </div>
